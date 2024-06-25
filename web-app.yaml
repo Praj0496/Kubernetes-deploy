@@ -1,5 +1,5 @@
-#Mongo Express is used as web app
-
+# Mongo Express is used as web app
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -32,7 +32,7 @@ spec:
             secretKeyRef:
               name: mongo-secret
               key: mongo-password
-        name: ME_CONFIG_MONGODB_SERVER
+        - name: ME_CONFIG_MONGODB_SERVER
           valueFrom:
             configMapKeyRef:
               name: mongo-config
