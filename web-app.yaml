@@ -22,12 +22,12 @@ spec:
         ports:
         - containerPort: 8081
         env:
-        - name: ME_CONFIG_BASICAUTH_USERNAME
-          valueFrom:
+        - name: 
+          valueFrom: ME_CONFIG_MONGODB_ADMINUSERNAME
             secretKeyRef:
               name: mongo-secret
               key: mongo-user
-        - name: ME_CONFIG_BASICAUTH_PASSWORD
+        - name: ME_CONFIG_MONGODB_ADMINPASSWORD
           valueFrom:
             secretKeyRef:
               name: mongo-secret
@@ -52,4 +52,4 @@ spec:
     - protocol: TCP
       port: 8081
       targetPort: 8081
-      nodePort: 30010
+      nodePort: 30100
