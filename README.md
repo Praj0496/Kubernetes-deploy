@@ -61,3 +61,6 @@ To deploy a MongoDB database and Mongo Express web interface on a Kubernetes clu
 Successfully deployed and configured a MongoDB database and a Mongo Express web interface on a Kubernetes cluster, providing a robust and scalable solution for database management and administration.
 
 This project demonstrates the effective use of Kubernetes for deploying containerized applications, in a cloud-native environment.
+
+![alt text](K8S-terminal.png)
+![alt text](web-interface.png)

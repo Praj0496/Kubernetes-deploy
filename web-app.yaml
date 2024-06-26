@@ -1,5 +1,4 @@
 # Mongo Express is used as web app
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
