@@ -26,7 +26,7 @@ To deploy a MongoDB database and Mongo Express web interface on a Kubernetes clu
         - Connects Mongo Express to MongoDB using the service name provided in a Kubernetes ConfigMap.
         - Exposes Mongo Express on port 8081.
     - **Service Configuration (`web-app.yaml`):**
-        - Creates a NodePort service to expose the Mongo Express UI to external traffic on port 30010.
+        - Creates a NodePort service to expose the Mongo Express UI to external traffic on port 30100.
 
 3. **Kubernetes ConfigMap and Secrets:**
     - **ConfigMap (`mongo-config.yaml`):**
